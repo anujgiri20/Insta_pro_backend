@@ -104,7 +104,7 @@ app.post("/login" , async(request,response)=>{
               expiresIn: "2h"
             }
           );
-        response.json({messege:"valid logged in",token:accessToken})
+        response.json({messege:"valid logged in",token:accessToken,result})
 
         
 
